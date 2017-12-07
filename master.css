@@ -1,0 +1,108 @@
+/* Big reset. */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+/* End big reset */
+
+
+body { line-height: 1.4; color: /* #855d7e */ #704b29; font-size: 15px; background: #fafffb; text-align: center; }
+
+a, a:visited { text-decoration: none; color: #F86B40; }
+
+a:hover, a:active, a:focus { text-decoration: underline; color: #f86b40; }
+
+#container { text-align: left; margin: 0 auto; width: 1085px; padding: 30px 20px; }
+
+h1 { font-size: 3.4em; margin: 0; line-height: 1; }
+
+.logo, .tagline { font-family: "Yanone Kaffeesatz", "Helvetica Neue", "Helvetica", sans-serif; letter-spacing: .07em; text-align: center; }
+
+.logo { color: #704b29; }
+
+.tagline { color: #704b29 /* #f86b40 */; font-size: 1.8em; margin: 0 0 .3em 0; }
+
+.tagline a, .tagline a:visited  { color: #f86b40; }
+
+.tag-tm { font-size: .7em; position: relative; top: -.3em; }
+
+.portrait { margin: .25em 0 .25em 0; }
+
+p, ul, h2, h3, h4 { margin: .75em 0; font-family: "Cantarell", "Verdana", sans-serif; letter-spacing: .02em; }
+
+a.unpromoted-link, a.unpromoted-link:visited { color: #704b29; }
+
+strong { font-size: 1.2em; font-weight: bold; }
+
+h2 { font-size: 1.2em; font-weight: bold; margin: 1em 0 .25em; }
+
+h3 { font-size: 1.2em; font-weight: bold; margin: 1em 0 .25em; }
+
+h4 { margin: .75em 0 0; font-weight: bold; }
+
+ul { list-style: disc outside; margin: 0 0 .75em 1em; }
+
+#text-col { width: 495px; float: right; }
+
+#container.workshops  { width: auto; }
+
+.workshops #text-col { width: 800px; float: left; }
+
+.workshop { margin-bottom: 40px; }
+
+form, input { display: inline; }
+
+.fancy-text { text-align: center; }
+
+.soldout { color: #cc0000; font-weight: bold; } 
+
+.slideshow-wrapper { width: 550px; height: 550px; position: fixed; margin-top: 5px; text-align: center; background: transparent; }
+
+#slideshow div  { width: 550px; height: 550px; } 
+
+#slideshow div img { display: block; margin: auto;}
+
+#slideshow img:hover { cursor:default; } 
+
+.slide-controls { height: 15px; text-align: center; margin-bottom: 1.5em; margin-top: .5em; width: 550px; }
+.slide-controls a:hover { cursor: pointer; }
+.slide-controls a { display: inline-block;  width: 15px; height: 15px; background-image: url(/images/sprites.png); background-repeat: no-repeat; }
+.slide-controls a span { display: none; }
+#slide-prev  { background-position: 0px -20px; }
+#slide-prev:hover, #slide-prev:active, #slide-prev:focus { background-position: 0px 0px; }
+#slide-toggle { background-position: -45px -20px; margin: 0 8em;}
+#slide-toggle:hover { background-position: -45px 0px; }
+#slide-toggle.play { background-position: -30px -20px; }
+#slide-toggle.play:hover, #slide-toggle.play:active, #slide-toggle.play:focus { background-position: -30px 0px; }
+#slide-toggle.pause { background-position: -45px -20px; }
+#slide-toggle.pause:hover, #slide-toggle.pause:active, #slide-toggle.pause:focus { background-position: -45px 0px; }
+#slide-next  { background-position: -15px -20px; }
+#slide-next:hover, #slide-next:active, #slide-next:focus { background-position: -15px 0px; }
