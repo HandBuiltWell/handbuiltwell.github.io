@@ -94,7 +94,7 @@ form, input { display: inline; }
 
 .slide-controls { height: 15px; text-align: center; margin-bottom: 1.5em; margin-top: .5em; width: 550px; }
 .slide-controls a:hover { cursor: pointer; }
-.slide-controls a { display: inline-block;  width: 15px; height: 15px; background-image: url(/images/sprites.png); background-repeat: no-repeat; }
+.slide-controls a { display: inline-block;  width: 15px; height: 15px; background-image: url(images/sprites.png); background-repeat: no-repeat; }
 .slide-controls a span { display: none; }
 #slide-prev  { background-position: 0px -20px; }
 #slide-prev:hover, #slide-prev:active, #slide-prev:focus { background-position: 0px 0px; }
